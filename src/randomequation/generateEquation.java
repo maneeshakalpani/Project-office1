@@ -700,7 +700,7 @@ String[] operationSet = new String[]{"+", "-", "/", "*"};
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-
+try{
         
          jLabel9.setText(" ");
          jLabel10.setText(" ");
@@ -856,7 +856,9 @@ String[] operationSet = new String[]{"+", "-", "/", "*"};
         
         
   
-      
+}catch(ArrayIndexOutOfBoundsException  e){
+jTextArea2.setText("enter more steps");
+}  
         
         
        
